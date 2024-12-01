@@ -11,6 +11,7 @@ html,body{
     height: 100%;
     width: 100%;
     background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #nav{
     height: 10%;
@@ -31,19 +32,29 @@ html,body{
     padding: 10px;
     border-radius: 50%;
     font-size: 20px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 #center{
     width: 100%;
     height: 57%;
-    padding: 40px 50px ;
+    padding: 0px 50px ;
     line-height: 40px;
+}
+#center h1{
+    font-size: 4.5vw;
+    line-height: 5vw;
+    font-weight: 500;
 }
 #center-in{
     margin-top: 20px;
     line-height: 20px;
     display: flex;
     justify-content: space-between;
+}
+#center-in p{
+    margin-top: 2vw;
+    font-size: 1.8vw;
+    line-height: 2.5vw;
 }
 #right{
     width: 30%;
@@ -58,8 +69,8 @@ html,body{
 }
 .element a{
     text-decoration: none;
-    color:  black;
-    font-weight: 500px;
+    color:black;
+    font-weight: 500;
     font-size: 20px;
 }
 .element i{
@@ -77,7 +88,84 @@ html,body{
 background-color: aqua;
 width: 100%;
 height: 33%;
-background-image: url(https://images.unsplash.com/photo-1558718932-c6dfc209f6fb?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-image: url(https://img.freepik.com/free-photo/photo-woman-looking-away-black-leather-jacket-cap_114579-59398.jpg?t=st=1733057247~exp=1733060847~hmac=b86439bc790dc5d9726a068989baedd88ae8dd5683b18fda7332a0e312afe548&w=740);
 background-size: cover;
-background-position: 0 10%
+background-position: 0 15%;
+}
+
+@media (max-width:600px) {
+    #nav{
+        height: 60px;
+        gap: 15px;
+        padding-right: 20px;
+    }
+    #nav h4{
+        font-size: 14px;
+        font-weight: 550;
+    }
+    #nav i{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border-radius: 50%;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    #center{
+        width: 100%;
+        height: 57%;
+        padding: 15px 20px ;
+        line-height: 40px;
+    }
+    #center h1{
+        font-size: 11.5vw;
+        line-height: 13vw;
+        font-weight: 500;
+    }
+    #center-in{
+        margin-top: 20px;
+        line-height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    #center-in p{
+        margin-top: 2vw;
+        font-size: 4.5vw;
+        line-height: 6vw;
+    }
+    #right{
+        width: 100%;
+    }
+    .element{
+        padding: 10px;
+        margin: 2px ;
+        border-top: 2px solid;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .element a{
+        text-decoration: none;
+        color:black;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .element i{
+        font-weight: 500;
+        font-size: 15px;
+        opacity: 1;
+    }
+    .element:hover{
+        background-color: #d8d8d8;
+    }
+    #bottom{
+    background-color: aqua;
+    width: 100%;
+    height: 35%;
+    background-image: url(https://img.freepik.com/free-photo/photo-woman-looking-away-black-leather-jacket-cap_114579-59398.jpg?t=st=1733057247~exp=1733060847~hmac=b86439bc790dc5d9726a068989baedd88ae8dd5683b18fda7332a0e312afe548&w=740);
+    background-size: cover;
+    background-position: 0 10%;
+    }
 }

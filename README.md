@@ -6,9 +6,10 @@ Welcome to the official landing page for Deribble Zackets, a sleek and modern we
 Modern Design: Clean, responsive, and user-friendly interface.
 Fully Responsive: Works seamlessly on all devices (mobile, tablet, desktop).
 Optimized Performance: Fast loading and lightweight.
-
-HTML5: For semantic and structured content.
-CSS3: To style and design the website.
+<ol>
+  <li>HTML5: For semantic and structured content.</li>
+  <li>CSS3: To style and design the website.</li>
+</ol>
 
 This project is deployed on Netlify. Visit the live site <a href="https://deribblezackets.netlify.app">Here</a>
 

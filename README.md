@@ -1,5 +1,5 @@
 <h1>Deribble Zackets - Landing Page</h1>
-Welcome to the official landing page for Deribble Zackets, a sleek and modern website built to showcase [purpose or features of your website, e.g., design, brand, or services].
+Welcome to the official landing page for Deribble Zackets, a sleek and modern website built to showcase.
 
 🌐 Live Demo: <a href="https://deribblezackets.netlify.app">Deribble-Zacket</a>
 

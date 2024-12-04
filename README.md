@@ -12,9 +12,8 @@ CSS3: To style and design the website.
 
 This project is deployed on Netlify. Visit the live site <a href="https://deribblezackets.netlify.app">Here</a>
 
-<h2>screenshot:-</h2>
-![img alt](https://github.com/sooobhyadav/css-project-1/blob/cbaedd35087ff8fe0ba9b4aad57d669c09c9c9e6/derrible-zackets.png)
-
+<h2>screenshot </h2>
+<img src="https://github.com/sooobhyadav/css-project-1/blob/main/derrible-zackets.png?raw=true" alt="Girl in a jacket">
 If you have ideas or suggestions to improve this project, feel free to:
 Open an issue!
 Submit a pull request
